@@ -3,6 +3,8 @@ package com.buec327.jbdepg.therunningcalculator;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
 public class HomePage extends Activity {
 
@@ -10,6 +12,12 @@ public class HomePage extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home_page);
+		
+		Button button1 = (Button) findViewById(R.id.button1);
+		
+	
+		
+		
 	}
 
 	@Override
