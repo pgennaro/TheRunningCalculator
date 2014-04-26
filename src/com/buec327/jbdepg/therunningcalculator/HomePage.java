@@ -2,22 +2,24 @@ package com.buec327.jbdepg.therunningcalculator;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import com.buec327.jbdepg.therunningcalculator.R;
 
 public class HomePage extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_home_page);
-		
-		Button button1 = (Button) findViewById(R.id.button1);
-		
+		setContentView(R.layout.activity_home_page);		
+	}
 	
-		
-		
+	public void sendMessage(View view){
+		Intent intent = new Intent(this, SplitCalculator.class);
+		startActivity(intent);
 	}
 
 	@Override
@@ -28,3 +30,4 @@ public class HomePage extends Activity {
 	}
 
 }
+
