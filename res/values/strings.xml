@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    
-    <string name="app_name">The Running Calculator</string><string name="action_settings">Settings</string>
+    <string name="app_name">The Running Calculator</string>
+    <string name="action_settings">Settings</string>
     <string name="header">Welcome</string>
     <string name="button_one">Calculate Pace and Spilts</string>
     <string name="button_two">Convert Distance</string>
@@ -10,5 +10,20 @@
     <string name="button_four">About</string>
     <string name="title_activity_split_calculator">Split Calculator</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_distance_converter">DistanceConverter</string>
+    <string name="title_activity_preformance_converter">PreformanceConverter</string>
+    <string name="distance_header">Convert Distance</string>
+    <string name="preformance_header">Convert a preformance</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="seconds">Seconds</string>
+    <string name="calculate">Calculate</string>
+    <string name="total_distance">Total Distance</string>
+    <string-array name="distance_array">
+        <item >Miles</item>
+        <item >Kilometers</item>
+        <item >Marathon</item>
+    </string-array>
+    <string name="distance_prompt">Miles</string>
 
 </resources>

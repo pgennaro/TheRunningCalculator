@@ -26,6 +26,14 @@
             android:name="com.buec327.jbdepg.therunningcalculator.SplitCalculator"
             android:label="@string/title_activity_split_calculator" >
         </activity>
+        <activity
+            android:name="com.buec327.jbdepg.therunningcalculator.DistanceConverter"
+            android:label="@string/title_activity_distance_converter" >
+        </activity>
+        <activity
+            android:name="com.buec327.jbdepg.therunningcalculator.PreformanceConverter"
+            android:label="@string/title_activity_preformance_converter" >
+        </activity>
     </application>
 
 </manifest>

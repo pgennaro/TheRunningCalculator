@@ -8,6 +8,9 @@
 package com.buec327.jbdepg.therunningcalculator;
 
 public final class R {
+    public static final class array {
+        public static final int distance_array=0x7f060000;
+    }
     public static final class attr {
     }
     public static final class dimen {
@@ -24,21 +27,33 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080006;
-        public static final int button1=0x7f080001;
-        public static final int button2=0x7f080002;
-        public static final int button3=0x7f080003;
-        public static final int button4=0x7f080004;
-        public static final int textView1=0x7f080000;
-        public static final int textView2=0x7f080005;
+        public static final int action_settings=0x7f09000e;
+        public static final int button1=0x7f090001;
+        public static final int button2=0x7f090002;
+        public static final int button3=0x7f090003;
+        public static final int button4=0x7f090004;
+        public static final int editText1=0x7f090006;
+        public static final int editText2=0x7f090007;
+        public static final int editText3=0x7f090008;
+        public static final int editText4=0x7f09000c;
+        public static final int spinner1=0x7f09000d;
+        public static final int textView1=0x7f090000;
+        public static final int textView2=0x7f090005;
+        public static final int textView3=0x7f090009;
+        public static final int textView4=0x7f09000a;
+        public static final int textView5=0x7f09000b;
     }
     public static final class layout {
-        public static final int activity_home_page=0x7f030000;
-        public static final int activity_split_calculator=0x7f030001;
+        public static final int activity_distance_converter=0x7f030000;
+        public static final int activity_home_page=0x7f030001;
+        public static final int activity_preformance_converter=0x7f030002;
+        public static final int activity_split_calculator=0x7f030003;
     }
     public static final class menu {
-        public static final int home_page=0x7f070000;
-        public static final int split_calculator=0x7f070001;
+        public static final int distance_converter=0x7f080000;
+        public static final int home_page=0x7f080001;
+        public static final int preformance_converter=0x7f080002;
+        public static final int split_calculator=0x7f080003;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -47,9 +62,19 @@ public final class R {
         public static final int button_one=0x7f050003;
         public static final int button_three=0x7f050005;
         public static final int button_two=0x7f050004;
+        public static final int calculate=0x7f050010;
+        public static final int distance_header=0x7f05000b;
+        public static final int distance_prompt=0x7f050012;
         public static final int header=0x7f050002;
         public static final int hello_world=0x7f050008;
+        public static final int hours=0x7f05000d;
+        public static final int minutes=0x7f05000e;
+        public static final int preformance_header=0x7f05000c;
+        public static final int seconds=0x7f05000f;
+        public static final int title_activity_distance_converter=0x7f050009;
+        public static final int title_activity_preformance_converter=0x7f05000a;
         public static final int title_activity_split_calculator=0x7f050007;
+        public static final int total_distance=0x7f050011;
     }
     public static final class style {
         /** 
@@ -73,10 +98,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }

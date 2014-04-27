@@ -17,10 +17,26 @@ public class HomePage extends Activity {
 		setContentView(R.layout.activity_home_page);		
 	}
 	
-	public void sendMessage(View view){
-		Intent intent = new Intent(this, SplitCalculator.class);
-		startActivity(intent);
+	public void calculateSplit(View view){
+		Intent split = new Intent(this, SplitCalculator.class);
+		startActivity(split);
 	}
+	
+	public void convertDistance(View view){
+		Intent dist = new Intent(this, DistanceConverter.class);
+		startActivity(dist);
+	}
+	
+	public void convertPreformance(View view){
+		Intent preformance = new Intent(this, PreformanceConverter.class);
+		startActivity(preformance);
+	}
+	
+	public void aboutButton(View view){
+		//Intent about = new Intent(this, SplitCalculator.class);
+		//startActivity(about);
+	}
+	
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
