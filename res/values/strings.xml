@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <string name="app_name">The Running Calculator</string>
     <string name="action_settings">Settings</string>
@@ -25,5 +25,8 @@
         <item >Marathon</item>
     </string-array>
     <string name="distance_prompt">Miles</string>
+    <string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="time">Split Time</string>
+    <string name="split_header">Split Calculator</string>
+    <string name="output">OUTPUT</string>
 
 </resources>

@@ -27,21 +27,25 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000e;
+        public static final int action_settings=0x7f090012;
         public static final int button1=0x7f090001;
         public static final int button2=0x7f090002;
         public static final int button3=0x7f090003;
         public static final int button4=0x7f090004;
-        public static final int editText1=0x7f090006;
-        public static final int editText2=0x7f090007;
-        public static final int editText3=0x7f090008;
-        public static final int editText4=0x7f09000c;
-        public static final int spinner1=0x7f09000d;
+        public static final int editText1=0x7f090005;
+        public static final int editText2=0x7f09000b;
+        public static final int editText3=0x7f09000c;
+        public static final int editText4=0x7f09000d;
+        public static final int editText5=0x7f09000f;
+        public static final int spinner1=0x7f090006;
+        public static final int spinner2=0x7f090010;
         public static final int textView1=0x7f090000;
-        public static final int textView2=0x7f090005;
-        public static final int textView3=0x7f090009;
-        public static final int textView4=0x7f09000a;
-        public static final int textView5=0x7f09000b;
+        public static final int textView2=0x7f090007;
+        public static final int textView3=0x7f090008;
+        public static final int textView4=0x7f090009;
+        public static final int textView5=0x7f09000a;
+        public static final int textView6=0x7f09000e;
+        public static final int textView7=0x7f090011;
     }
     public static final class layout {
         public static final int activity_distance_converter=0x7f030000;
@@ -69,8 +73,11 @@ public final class R {
         public static final int hello_world=0x7f050008;
         public static final int hours=0x7f05000d;
         public static final int minutes=0x7f05000e;
+        public static final int output=0x7f050015;
         public static final int preformance_header=0x7f05000c;
         public static final int seconds=0x7f05000f;
+        public static final int split_header=0x7f050014;
+        public static final int time=0x7f050013;
         public static final int title_activity_distance_converter=0x7f050009;
         public static final int title_activity_preformance_converter=0x7f05000a;
         public static final int title_activity_split_calculator=0x7f050007;
