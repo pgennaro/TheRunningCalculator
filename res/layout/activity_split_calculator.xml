@@ -136,7 +136,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText5"
         android:layout_centerHorizontal="true"
-        android:text="@string/calculate" />
+        android:text="@string/calculate"
+        android:onClick="GoGoPowerRangers" />
 
     <TextView
         android:id="@+id/textView7"
@@ -144,7 +145,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true"
-        android:text="@string/output"
+        android:text="OUTPUT"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
