@@ -9,8 +9,90 @@
     tools:context=".PreformanceConverter" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/preformance_header" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/preformance_header"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    
+	<ToggleButton
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="@string/gender"
+        android:textOff="@string/male"
+        android:textOn="@string/female"
+        android:onClick="onToggleOneClicked" />
+
+	<EditText
+	    android:id="@+id/editText1"
+	    android:layout_width="150dip"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/switch1"
+	    android:layout_toRightOf="@+id/switch1"
+	    android:ems="10"
+	    android:hint="@string/hint" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/editText1"
+	    android:layout_toRightOf="@+id/editText1"
+        android:entries="@array/preformance_array_men"
+        android:prompt="@string/preformance_prompt" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/convert"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/switch1"
+        android:layout_below="@+id/textView2"
+        android:textOff="@string/male"
+        android:textOn="@string/female"
+        android:onClick="onToggleTwoClicked" />
+
+    <TextView
+        android:id="@+id/output_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toggleButton1"
+        android:layout_toRightOf="@+id/toggleButton1"
+        android:text="OUPUT"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:layout_alignBottom="@+id/output_text"
+	    android:layout_toRightOf="@+id/output_text"
+        android:entries="@array/preformance_array_men"
+        android:prompt="@string/preformance_prompt" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/output_text"
+        android:layout_centerHorizontal="true"
+        android:text="@string/convert_button" />
 
 </RelativeLayout>

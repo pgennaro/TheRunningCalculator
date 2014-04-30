@@ -28,5 +28,110 @@
     <string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="time">Split Time</string>
     <string name="split_header">Split Calculator</string>
     <string name="output">OUTPUT</string>
+    <string name="convert_to">Convert To</string>
+    <string name="preformance_prompt">Select Event</string>
+    <string-array name="preformance_array_men">
+        <item >100m</item>
+        <item >110m H</item>
+        <item >200m</item>
+        <item >300m</item>
+        <item >400m</item>
+        <item >400m H</item>
+        <item >4x100m</item>
+        <item >4x200m</item>
+        <item >4x400m</item>
+        <item >600m</item>
+        <item >800m</item>
+        <item >1000m</item>
+        <item >1500m</item>
+        <item >Mile</item>
+        <item >2000m</item>
+        <item >2000m SC</item>
+        <item >3000m</item>
+        <item >3000m SC</item>
+        <item >2 Miles</item>
+        <item >5000m</item>
+        <item >10000m</item>
+        <item >10 km (Road)</item>
+        <item >15 km</item>
+        <item >10 Miles</item>
+        <item >20 km</item>
+        <item >Half Marathon</item>
+        <item >25km</item>
+        <item >30km</item>
+        <item >Marathon</item>
+        <item >100km</item>
+        <item >3km RW</item>
+        <item >5km RW</item>
+        <item >10km RW</item>
+        <item >20km RW</item>
+        <item >30km RW</item>
+        <item >35km RW</item>
+        <item >50km RW</item>
+        <item >High Jump</item>
+        <item >Pole Vault</item>
+        <item >Long Jump</item>
+        <item >Triple Jump</item>
+        <item >Shot Put</item>
+        <item >Discus</item>
+        <item >Hammer</item>
+        <item >Javelin</item>
+        <item >Decathlon</item>
+    </string-array>
+    <string-array name="preformance_array_women">
+        <item >100m</item>
+        <item >100m H</item>
+        <item >200m</item>
+        <item >300m</item>
+        <item >400m</item>
+        <item >400m H</item>
+        <item >4x100m</item>
+        <item >4x200m</item>
+        <item >4x400m</item>
+        <item >600m</item>
+        <item >800m</item>
+        <item >1000m</item>
+        <item >1500m</item>
+        <item >Mile</item>
+        <item >2000m</item>
+        <item >2000m SC</item>
+        <item >3000m</item>
+        <item >3000m SC</item>
+        <item >2 Miles</item>
+        <item >5000m</item>
+        <item >10000m</item>
+        <item >10 km (Road)</item>
+        <item >15 km</item>
+        <item >10 Miles</item>
+        <item >20 km</item>
+        <item >Half Marathon</item>
+        <item >25km</item>
+        <item >30km</item>
+        <item >Marathon</item>
+        <item >100km</item>
+        <item >3km RW</item>
+        <item >5km RW</item>
+        <item >10km RW</item>
+        <item >20km RW</item>
+        <item >30km RW</item>
+        <item >35km RW</item>
+        <item >50km RW</item>
+        <item >High Jump</item>
+        <item >Pole Vault</item>
+        <item >Long Jump</item>
+        <item >Triple Jump</item>
+        <item >Shot Put</item>
+        <item >Discus</item>
+        <item >Hammer</item>
+        <item >Javelin</item>
+        <item >Heptathlon</item>
+    </string-array>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="milliseconds">Milliseconds</string>
+    <string name="convert">Convert to:</string>
+    <string name="convert_button">Convert</string>
+    <string name="hint">hr:min:s.ms</string>
 
 </resources>

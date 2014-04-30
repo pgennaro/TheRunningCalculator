@@ -10,6 +10,8 @@ package com.buec327.jbdepg.therunningcalculator;
 public final class R {
     public static final class array {
         public static final int distance_array=0x7f060000;
+        public static final int preformance_array_men=0x7f060001;
+        public static final int preformance_array_women=0x7f060002;
     }
     public static final class attr {
     }
@@ -27,25 +29,28 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f090012;
-        public static final int button1=0x7f090001;
-        public static final int button2=0x7f090002;
-        public static final int button3=0x7f090003;
-        public static final int button4=0x7f090004;
-        public static final int editText1=0x7f090005;
-        public static final int editText2=0x7f09000b;
-        public static final int editText3=0x7f09000c;
-        public static final int editText4=0x7f09000d;
-        public static final int editText5=0x7f09000f;
-        public static final int spinner1=0x7f090006;
-        public static final int spinner2=0x7f090010;
-        public static final int textView1=0x7f090000;
-        public static final int textView2=0x7f090007;
-        public static final int textView3=0x7f090008;
-        public static final int textView4=0x7f090009;
-        public static final int textView5=0x7f09000a;
-        public static final int textView6=0x7f09000e;
-        public static final int textView7=0x7f090011;
+        public static final int action_settings=0x7f090015;
+        public static final int button1=0x7f090005;
+        public static final int button2=0x7f090006;
+        public static final int button3=0x7f090007;
+        public static final int button4=0x7f090008;
+        public static final int editText1=0x7f090000;
+        public static final int editText2=0x7f09000f;
+        public static final int editText3=0x7f090010;
+        public static final int editText4=0x7f090011;
+        public static final int editText5=0x7f090013;
+        public static final int output_text=0x7f09000b;
+        public static final int spinner1=0x7f090001;
+        public static final int spinner2=0x7f090003;
+        public static final int switch1=0x7f090009;
+        public static final int textView1=0x7f090002;
+        public static final int textView2=0x7f090004;
+        public static final int textView3=0x7f09000c;
+        public static final int textView4=0x7f09000d;
+        public static final int textView5=0x7f09000e;
+        public static final int textView6=0x7f090012;
+        public static final int textView7=0x7f090014;
+        public static final int toggleButton1=0x7f09000a;
     }
     public static final class layout {
         public static final int activity_distance_converter=0x7f030000;
@@ -67,14 +72,23 @@ public final class R {
         public static final int button_three=0x7f050005;
         public static final int button_two=0x7f050004;
         public static final int calculate=0x7f050010;
+        public static final int convert=0x7f05001c;
+        public static final int convert_button=0x7f05001d;
+        public static final int convert_to=0x7f050016;
         public static final int distance_header=0x7f05000b;
         public static final int distance_prompt=0x7f050012;
+        public static final int female=0x7f05001a;
+        public static final int gender=0x7f050018;
         public static final int header=0x7f050002;
         public static final int hello_world=0x7f050008;
+        public static final int hint=0x7f05001e;
         public static final int hours=0x7f05000d;
+        public static final int male=0x7f050019;
+        public static final int milliseconds=0x7f05001b;
         public static final int minutes=0x7f05000e;
         public static final int output=0x7f050015;
         public static final int preformance_header=0x7f05000c;
+        public static final int preformance_prompt=0x7f050017;
         public static final int seconds=0x7f05000f;
         public static final int split_header=0x7f050014;
         public static final int time=0x7f050013;
