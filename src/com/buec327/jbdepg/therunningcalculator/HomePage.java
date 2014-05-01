@@ -2,6 +2,9 @@ package com.buec327.jbdepg.therunningcalculator;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
@@ -34,9 +37,30 @@ public class HomePage extends Activity {
 		startActivity(preformance);
 	}
 	
+	final Context context = this;
 	public void aboutButton(View view){
-		//Intent about = new Intent(this, SplitCalculator.class);
-		//startActivity(about);
+		AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
+				context);
+ 
+			// set title
+			alertDialogBuilder.setTitle("About the Running Calculator");
+ 
+			// set dialog message
+			alertDialogBuilder.setMessage("The Running Calculator was developed in 2014.  The preformance conversions are from the 2011 IAAF conversion table.");
+			alertDialogBuilder.setCancelable(false);
+			alertDialogBuilder.setNegativeButton("Okay",new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog,int id) {
+						// if this button is clicked, just close
+						// the dialog box and do nothing
+						dialog.cancel();
+					}
+				});
+ 
+				// create alert dialog
+				AlertDialog alertDialog = alertDialogBuilder.create();
+ 
+				// show it
+				alertDialog.show();
 	}
 	
 

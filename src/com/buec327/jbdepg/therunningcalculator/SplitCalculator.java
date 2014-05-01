@@ -38,7 +38,7 @@ public class SplitCalculator extends Activity {
 		double total_output_time = 0;
 		int hours = 0;
 		int minutes = 0;
-		int seconds = 0;
+		double seconds = 0;
 		int out_hours = 0;
 		int out_minutes = 0;
 		double out_seconds = 0;
@@ -72,7 +72,7 @@ public class SplitCalculator extends Activity {
 		if(seconds_input.getText().toString().equals("")){
 			seconds = 0;
 		}else{
-			seconds = Integer.valueOf(seconds_input.getText().toString());
+			seconds = Double.valueOf(seconds_input.getText().toString());
 		}
 		
 		if(input_distance_type.getSelectedItem().toString().equals("Miles")){

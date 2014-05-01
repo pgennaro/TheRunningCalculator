@@ -15,9 +15,15 @@ public class PreformanceConverter extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_preformance_converter);
+		Spinner spinner1 = (Spinner) findViewById(R.id.spinner1);
+		Spinner spinner2 = (Spinner) findViewById(R.id.spinner2);	
+
+
+		ArrayAdapter<String> spinner1ArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, getResources().getStringArray(R.array.preformance_array_men));
+	    spinner1.setAdapter(spinner1ArrayAdapter);
+	    spinner2.setAdapter(spinner1ArrayAdapter);
 	}
 	
-
 	//Sets the spinner values for the correct gender
 	public void onToggleOneClicked(View view) {
 	    // Is the toggle on?

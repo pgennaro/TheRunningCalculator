@@ -136,7 +136,11 @@
     <string name="milliseconds">Milliseconds</string>
     <string name="convert">Convert to:</string>
     <string name="convert_button">Convert</string>
-    <string name="hint">hr:min:s.ms</string>
+    <string name="hint">Enter Preformance</string>
     <string name="quality">0</string>
+    <string name="output_hint">0:00:00.0</string>
+    <string name="zero">0</string>
+    <string name="zero_point">0.0</string>
+    <string name="zero_two">00</string>
 
 </resources>

@@ -20,7 +20,7 @@
     
 	<ToggleButton
         android:id="@+id/switch1"
-        android:layout_width="wrap_content"
+        android:layout_width="75dip"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView1"
@@ -43,12 +43,10 @@
 
     <Spinner
         android:id="@+id/spinner1"
-        android:layout_width="wrap_content"
+        android:layout_width="100dip"
         android:layout_height="wrap_content"
 	    android:layout_alignBottom="@+id/editText1"
-	    android:layout_toRightOf="@+id/editText1"
-        android:entries="@array/preformance_array_men"
-        android:prompt="@string/preformance_prompt" />
+	    android:layout_toRightOf="@+id/editText1" />
 
     <TextView
         android:id="@+id/textView2"
@@ -61,7 +59,7 @@
 
     <ToggleButton
         android:id="@+id/toggleButton1"
-        android:layout_width="wrap_content"
+        android:layout_width="75dip"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/switch1"
         android:layout_below="@+id/textView2"
@@ -71,21 +69,12 @@
 
     <TextView
         android:id="@+id/output_text"
-        android:layout_width="wrap_content"
+        android:layout_width="150dip"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/toggleButton1"
         android:layout_toRightOf="@+id/toggleButton1"
-        android:text="OUPUT"
+        android:text="@string/output_hint"
         android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-       	android:layout_alignBottom="@+id/output_text"
-	    android:layout_toRightOf="@+id/output_text"
-        android:entries="@array/preformance_array_men"
-        android:prompt="@string/preformance_prompt" />
 
     <Button
         android:id="@+id/button1"
@@ -94,5 +83,21 @@
         android:layout_below="@+id/output_text"
         android:layout_centerHorizontal="true"
         android:text="@string/convert_button" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/quality"
+        android:src="@drawable/polevault" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/output_text"
+        android:layout_alignBottom="@+id/output_text" />
 
 </RelativeLayout>

@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.buec327.jbdepg.therunningcalculator"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0" android:installLocation="preferExternal">
 
     <uses-sdk
         android:minSdkVersion="7"
@@ -12,7 +12,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@android:style/Theme.Holo" >
         <activity
             android:name="com.buec327.jbdepg.therunningcalculator.HomePage"
             android:label="@string/app_name" >
