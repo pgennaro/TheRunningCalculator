@@ -1,5 +1,7 @@
 package com.buec327.jbdepg.therunningcalculator;
 
+import java.text.DecimalFormat;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -24,6 +26,7 @@ public class DistanceConverter extends Activity {
 		TextView output = (TextView) findViewById(R.id.output);
 		EditText enter = (EditText) findViewById(R.id.editText1);
 		double entered_distance = 0;
+		DecimalFormat df = new DecimalFormat("#.00");
 		//Converts the entered distance to miles, than converts miles to desired distance
 		if(enter.getText().toString().equals("")){
 			entered_distance = 0;
@@ -31,7 +34,7 @@ public class DistanceConverter extends Activity {
 			entered_distance = Double.valueOf(enter.getText().toString());
 		}
 		double distance_in_miles = 0;
-		String converted_distance;
+		double converted_distance;
 		if(original.getSelectedItem().toString().equals("Miles")){
 			distance_in_miles = entered_distance;
 		} else if(original.getSelectedItem().toString().equals("Kilometers")) {
@@ -48,26 +51,26 @@ public class DistanceConverter extends Activity {
 			distance_in_miles = entered_distance*1.15078;
 		}
 		if(convert_to.getSelectedItem().toString().equals("Miles")){
-			converted_distance = String.valueOf(distance_in_miles);
-			output.setText(converted_distance + " Miles");
+			converted_distance = distance_in_miles;
+			output.setText(df.format(converted_distance) + " Miles");
 		} else if(convert_to.getSelectedItem().toString().equals("Kilometers")) {
-			converted_distance = String.valueOf(distance_in_miles*1.60934);
-			output.setText(converted_distance + " Kilometers");
+			converted_distance = distance_in_miles*1.60934;
+			output.setText(df.format(converted_distance) + " Kilometers");
 		} else if(convert_to.getSelectedItem().toString().equals("Marathon")) {
-			converted_distance = String.valueOf(distance_in_miles*0.03816793893);
-			output.setText(converted_distance + " Marathon");
+			converted_distance = distance_in_miles*0.03816793893;
+			output.setText(df.format(converted_distance) + " Marathon");
 		} else if(convert_to.getSelectedItem().toString().equals("Meters")) {
-			converted_distance = String.valueOf(distance_in_miles*1609.34);
-			output.setText(converted_distance + " Meters");
+			converted_distance = distance_in_miles*1609.34;
+			output.setText(df.format(converted_distance) + " Meters");
 		} else if(convert_to.getSelectedItem().toString().equals("Yards")) {
-			converted_distance = String.valueOf(distance_in_miles*1760);
-			output.setText(converted_distance + " Yards");
+			converted_distance = distance_in_miles*1760;
+			output.setText(df.format(converted_distance) + " Yards");
 		} else if(convert_to.getSelectedItem().toString().equals("Feet")) {
-			converted_distance = String.valueOf(distance_in_miles*5280);
-			output.setText(converted_distance + " Feet");
+			converted_distance = distance_in_miles*5280;
+			output.setText(df.format(converted_distance) + " Feet");
 		} else if(convert_to.getSelectedItem().toString().equals("Nautical Miles")) {
-			converted_distance = String.valueOf(distance_in_miles*0.868976);
-			output.setText(converted_distance + " Nautical Miles");
+			converted_distance = distance_in_miles*0.868976;
+			output.setText(df.format(converted_distance) + " Nautical Miles");
 		}
 		
 	}

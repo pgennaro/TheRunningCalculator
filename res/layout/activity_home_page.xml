@@ -12,6 +12,14 @@
         android:layout_weight="1"
         android:text="@string/header" />
 
+	<ImageView
+	    android:id="@+id/homescrean"
+	    android:layout_width="537dp"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:contentDescription="@string/quality"
+	    android:src="@drawable/usainbolt" />
+	
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"

@@ -145,7 +145,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true"
-        android:text="OUTPUT"
+        android:text=""
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

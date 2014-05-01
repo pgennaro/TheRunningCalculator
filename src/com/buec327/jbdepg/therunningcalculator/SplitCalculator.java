@@ -1,5 +1,7 @@
 package com.buec327.jbdepg.therunningcalculator;
 
+import java.text.DecimalFormat;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -118,6 +120,7 @@ public class SplitCalculator extends Activity {
 		String output_one = null;
 		String output_two = null;
 		String output_message = null;
+		DecimalFormat df = new DecimalFormat("#.0");
 		
 		if(out_hours > 0){
 		output_one = Integer.toString(out_hours);
@@ -130,9 +133,9 @@ public class SplitCalculator extends Activity {
 			output_two = Integer.toString(out_minutes);
 		}
 		if(out_seconds > 10){
-			output_message = output_two +":"+Double.toString(out_seconds);
+			output_message = output_two +":"+df.format(out_seconds);
 		} else{
-			output_message = output_two +":0"+Double.toString(out_seconds);
+			output_message = output_two +":0"+df.format(out_seconds);
 		}
 		
 		output.setText(output_message);

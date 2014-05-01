@@ -137,5 +137,6 @@
     <string name="convert">Convert to:</string>
     <string name="convert_button">Convert</string>
     <string name="hint">hr:min:s.ms</string>
+    <string name="quality">0</string>
 
 </resources>

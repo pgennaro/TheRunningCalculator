@@ -7,6 +7,8 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ImageView;
+
 import com.buec327.jbdepg.therunningcalculator.R;
 
 public class HomePage extends Activity {
@@ -14,7 +16,7 @@ public class HomePage extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_home_page);		
+		setContentView(R.layout.activity_home_page);
 	}
 	
 	public void calculateSplit(View view){
