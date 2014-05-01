@@ -142,5 +142,6 @@
     <string name="zero">0</string>
     <string name="zero_point">0.0</string>
     <string name="zero_two">00</string>
+    <string name="help">Help</string>
 
 </resources>

@@ -88,6 +88,7 @@ public final class R {
         public static final int gender=0x7f050018;
         public static final int header=0x7f050002;
         public static final int hello_world=0x7f050008;
+        public static final int help=0x7f050024;
         public static final int hint=0x7f05001e;
         public static final int hours=0x7f05000d;
         public static final int male=0x7f050019;
