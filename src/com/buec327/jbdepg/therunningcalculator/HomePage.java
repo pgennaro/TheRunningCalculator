@@ -8,9 +8,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.widget.ImageView;
 
 import com.buec327.jbdepg.therunningcalculator.R;
 
@@ -46,7 +43,7 @@ public class HomePage extends Activity {
 			alertDialogBuilder.setTitle("About the Running Calculator");
  
 			// set dialog message
-			alertDialogBuilder.setMessage("The Running Calculator was developed in 2014.  The preformance conversions are from the 2011 IAAF conversion table.");
+			alertDialogBuilder.setMessage("The Running Calculator was developed in 2014.  The preformance conversions are from the 2011 IAAF conversion table.  The preformance conversions are inteded to give an estimate.  The Running Calculator is not responsible for failure to achieve equivalent preformances.");
 			alertDialogBuilder.setCancelable(false);
 			alertDialogBuilder.setNegativeButton("Okay",new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog,int id) {

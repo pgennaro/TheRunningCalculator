@@ -10,8 +10,8 @@
     <string name="button_four">About</string>
     <string name="title_activity_split_calculator">Split Calculator</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_distance_converter">DistanceConverter</string>
-    <string name="title_activity_preformance_converter">PreformanceConverter</string>
+    <string name="title_activity_distance_converter">Distance Converter</string>
+    <string name="title_activity_preformance_converter">Preformance Converter</string>
     <string name="distance_header">Convert Distance</string>
     <string name="preformance_header">Convert a preformance</string>
     <string name="hours">Hours</string>
@@ -30,7 +30,7 @@
     </string-array>
     <string name="distance_prompt">Miles</string>
     <string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="time">Split Time</string>
-    <string name="split_header">Split Calculator</string>
+    <string name="split_header">Split Distance</string>
     <string name="output">OUTPUT</string>
     <string name="convert_to">Convert To</string>
     <string name="preformance_prompt">Select Event</string>

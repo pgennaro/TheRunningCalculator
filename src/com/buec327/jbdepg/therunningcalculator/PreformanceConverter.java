@@ -67,7 +67,7 @@ public class PreformanceConverter extends Activity {
 			alertDialogBuilder.setTitle("Preformance Converter Help");
  
 			// set dialog message
-			alertDialogBuilder.setMessage("Enter time hours:minutes:seconds.milliseconds /n Enter distance in meters");
+			alertDialogBuilder.setMessage("Enter time hours:minutes:seconds.milliseconds. Enter distance in meters");
 			alertDialogBuilder.setCancelable(false);
 			alertDialogBuilder.setNegativeButton("Okay",new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog,int id) {

@@ -134,8 +134,11 @@ public class SplitCalculator extends Activity {
 		}
 		if(out_seconds > 10){
 			output_message = output_two +":"+df.format(out_seconds);
-		} else{
+		} else if (out_seconds >= 1){
 			output_message = output_two +":0"+df.format(out_seconds);
+		} else{
+			output_message = output_two +":00"+df.format(out_seconds);
+
 		}
 		
 		output.setText(output_message);
