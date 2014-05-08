@@ -11,7 +11,7 @@
     <string name="title_activity_split_calculator">Split Calculator</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_distance_converter">Distance Converter</string>
-    <string name="title_activity_preformance_converter">Multi-Event Calculator</string>
+    <string name="title_activity_preformance_converter">Multi Event Calculator</string>
     <string name="distance_header">Convert Distance</string>
     <string name="preformance_header">Calculate Points for an event</string>
     <string name="hours">Hours</string>
