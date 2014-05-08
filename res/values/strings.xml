@@ -6,14 +6,14 @@
     <string name="header">Welcome</string>
     <string name="button_one">Calculate Pace and Spilts</string>
     <string name="button_two">Convert Distance</string>
-    <string name="button_three">Convert Preformance</string>
+    <string name="button_three">Multi Event Calculator</string>
     <string name="button_four">About</string>
     <string name="title_activity_split_calculator">Split Calculator</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_distance_converter">Distance Converter</string>
-    <string name="title_activity_preformance_converter">Preformance Converter</string>
+    <string name="title_activity_preformance_converter">Multi-Event Calculator</string>
     <string name="distance_header">Convert Distance</string>
-    <string name="preformance_header">Convert a preformance</string>
+    <string name="preformance_header">Calculate Points for an event</string>
     <string name="hours">Hours</string>
     <string name="minutes">Minutes</string>
     <string name="seconds">Seconds</string>
@@ -134,14 +134,39 @@
     <string name="male">Male</string>
     <string name="female">Female</string>
     <string name="milliseconds">Milliseconds</string>
-    <string name="convert">Convert to:</string>
-    <string name="convert_button">Convert</string>
+    <string name="convert">Calculate Points</string>
+    <string name="convert_button">Calculate</string>
     <string name="hint">Enter Preformance</string>
     <string name="quality">0</string>
-    <string name="output_hint">0:00:00.0</string>
+    <string name="output_hint">000</string>
     <string name="zero">0</string>
     <string name="zero_point">0.0</string>
     <string name="zero_two">00</string>
     <string name="help">Help</string>
+    <string-array name="multi_array_men">
+        <item >100m</item>
+        <item >400m</item>
+        <item >1500m</item>
+        <item >110m H</item>
+        <item >Long Jump</item>
+        <item >High Jump</item>
+        <item >Pole Vault</item>
+        <item >Shot Put</item>
+        <item >Discus</item>
+        <item >Javelin</item>
+        <item >60m</item>
+        <item >1000m</item>
+        <item >60m H</item>
+    </string-array>
+    <string-array name="multi_array_women">
+        <item >200m</item>
+        <item >800m</item>
+        <item >100m H</item>
+        <item >Long Jump</item>
+        <item >High Jump</item>
+        <item >Shot Put</item>
+        <item >Javelin</item>
+        <item >60m H</item>
+    </string-array>
 
 </resources>

@@ -43,7 +43,7 @@ public class HomePage extends Activity {
 			alertDialogBuilder.setTitle("About the Running Calculator");
  
 			// set dialog message
-			alertDialogBuilder.setMessage("The Running Calculator was developed in 2014.  The preformance conversions are from the 2011 IAAF conversion table.  The preformance conversions are inteded to give an estimate.  The Running Calculator is not responsible for failure to achieve equivalent preformances.");
+			alertDialogBuilder.setMessage("The Running Calculator was developed in 2014.  The Multi Event calculator uses the most recently published scoring formulas from the IAAF; however, The Running Calculator is not intended to substitue official results.");
 			alertDialogBuilder.setCancelable(false);
 			alertDialogBuilder.setNegativeButton("Okay",new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog,int id) {
